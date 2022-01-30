@@ -2,19 +2,19 @@ def teste211():
     total_score = 0
     fun_name = TAD_posicao_public
 
-    p1 = cria_posicao(-1, 2) #DONE
+    p1 = cria_posicao(-1, 2) 
     # cria_posicao: argumentos invalidos
 
-    p1 = cria_posicao(2, 3) #DONEE
+    p1 = cria_posicao(2, 3) 
     p2 = cria_posicao(7, 0)
     posicoes_iguais(p1, p2)
     # False
 
-    p1 = cria_posicao(2, 3) #DONE
+    p1 = cria_posicao(2, 3) 
     posicao_para_str(p1) == '(2, 3)'
     # True
 
-    p2 = cria_posicao(7, 0) #DONE
+    p2 = cria_posicao(7, 0) 
     t = obter_posicoes_adjacentes(p2)
     tuple(posicao_para_str(p) for p in t)
     # ('(8, 0)', '(7, 1)', '(6, 0)')
@@ -32,47 +32,47 @@ def teste212():
     total_score = 0
     fun_name = TAD_animal_public
 
-    cria_animal('rabbit', -5, 0)#DONE
+    cria_animal('rabbit', -5, 0)
     # cria_animal: argumentos invalidos
 
-    r1 = cria_animal('rabbit', 5, 0)#DONE
+    r1 = cria_animal('rabbit', 5, 0)
     animal_para_str(r1)
     # rabbit [0/5]
 
-    f1 = cria_animal('fox', 20, 10)#DONE
+    f1 = cria_animal('fox', 20, 10)
     animal_para_str(f1)
     # fox [0/20;0/10]
 
-    r1 = cria_animal('rabbit', 5, 0)#DONE
+    r1 = cria_animal('rabbit', 5, 0)
     animal_para_char(r1)
     # r
 
-    f1 = cria_animal('fox', 20, 10)#DONE
+    f1 = cria_animal('fox', 20, 10)
     animal_para_char(f1)
     # F
 
-    f1 = cria_animal('fox', 20, 10)#DONE
+    f1 = cria_animal('fox', 20, 10)
     f2 = cria_copia_animal(f1)
     f2 = aumenta_idade(aumenta_idade(f2))
     f2 = aumenta_fome(f2)
     animal_para_str(f1)
     # fox [0/20;0/10]
 
-    f1 = cria_animal('fox', 20, 10)#DONE
+    f1 = cria_animal('fox', 20, 10)
     f2 = cria_copia_animal(f1)
     f2 = aumenta_idade(aumenta_idade(f2))
     f2 = aumenta_fome(f2)
     animal_para_str(f2)
     # fox [2/20;1/10]
 
-    f1 = cria_animal('fox', 20, 10) #DONE
+    f1 = cria_animal('fox', 20, 10) 
     f2 = cria_copia_animal(f1)
     f2 = aumenta_idade(aumenta_idade(f2))
     f2 = aumenta_fome(f2)
     animais_iguais(f1, f2)
     # False
 
-    f1 = cria_animal('fox', 20, 10) #DONE
+    f1 = cria_animal('fox', 20, 10) 
     f2 = cria_copia_animal(f1)
     f2 = aumenta_idade(aumenta_idade(f2))
     f2 = aumenta_fome(f2)
@@ -82,7 +82,7 @@ def teste212():
 
     # fox [0/20;1/10]
 
-    f1 = cria_animal('fox', 20, 10) #DONE
+    f1 = cria_animal('fox', 20, 10) 
     f2 = cria_copia_animal(f1)
     f2 = aumenta_idade(aumenta_idade(f2))
     f2 = aumenta_fome(f2)
@@ -96,7 +96,7 @@ def teste212():
 def teste213():
     total_score = 0
     fun_name = TAD_prado_public
-#doneeeee yayayyysjshnbjmdfnxdfc
+
     dim = cria_posicao(11, 4)
     obs = (cria_posicao(4, 2), cria_posicao(5, 2))
     an1 = tuple(cria_animal('rabbit', 5, 0) for i in range(3))
@@ -127,7 +127,7 @@ def teste213():
     prado_para_str(prado)
     # +----------+\\n|....rL...r|\\n|...@@.....|\\n|........r.|\\n+----------+
 
-    dim = cria_posicao(11, 4)#done i think
+    dim = cria_posicao(11, 4)
     obs = (cria_posicao(4, 2), cria_posicao(5, 2))
     an1 = tuple(cria_animal('rabbit', 5, 0) for i in range(3))
     an2 = (cria_animal('lynx', 20, 15),)
