@@ -1,5 +1,4 @@
 #Final project 2 
-#Sara Pinheiro, ist1102507, sara.pinheiro@tecnico.ulisboa.pt
 #projeto 2: simulação de um prado
 
 #TAD posição 
