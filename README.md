@@ -1,1 +1,6 @@
-Python project 2 for Fprog class - 2021/2022.
+# FP 2021/2022
+**Fundamentals of Programming** (FP) project implemented in Python
+
+
+
+
